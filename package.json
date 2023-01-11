@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind -i ./input.css -o ./css/style.css",
+    "watch": "tailwind -i ./input.css -o ./css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InnaForkert/tailwind-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InnaForkert/tailwind-template/issues"
+  },
+  "homepage": "https://github.com/InnaForkert/tailwind-template#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
